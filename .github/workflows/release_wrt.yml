@@ -1,6 +1,9 @@
 name: Release WRT
 run-name: Release - ${{ inputs.model }}
 
+permissions:
+  contents: write
+
 on:
   workflow_dispatch:
     inputs:
